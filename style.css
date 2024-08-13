@@ -34,10 +34,12 @@ li a {
     text-align: center;
     padding: 50px 20px;
     background: #048eaa;
-    background-image: url("assets/park.jpg");
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("assets/park.jpg");
     background-size: cover;
+    background-image: filter;
     color: #ffffff;
-    text-shadow: 2px 2px 4px #000000;
 }
 
 .hero h1 {
