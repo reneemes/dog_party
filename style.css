@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+header {
+    background-color: #75e2e6;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: #048eaa;
+    background-image: url("assets/park.jpg");
+    background-size: cover;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+}
+  
+.hero img {
+    border-radius: 50%;
+    margin: 20px 0;
+    border-style: solid;
+    border-color: #048eaa;
+    border-width: thick;
+}
+  
+.hero form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+  
+.hero button {
+    padding: 10px 20px;
+    background-color: #190390;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+.info {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 20px;
+    background-color: #f0f0f0;
+}
+  
+.dog-info {
+    text-align: center;
+}
+
+.dog-info img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    border-color: #048eaa;
+    border-width: thick;
+}
+  
+.dog-info h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+  
+.dog-info p {
+    font-size: 1em;
+    margin: 10px 0;
+}
+  
+.dog-info button {
+    padding: 10px 20px;
+    background-color: #048eaa;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #048eaa;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+footer a {
+    display: block;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+footer div {
+    margin: 20px;
+    justify-content: center;
+}
+
+footer img {
+    padding: 20px;
+}
